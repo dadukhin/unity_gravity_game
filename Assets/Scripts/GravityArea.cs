@@ -6,6 +6,8 @@ public abstract class GravityArea : MonoBehaviour
 {
     [SerializeField] private int _priority;
     public int Priority => _priority;
+	[SerializeField] private int _multiplier = 1;
+    public int Multiplier => _multiplier;
     
     void Start()
     {
